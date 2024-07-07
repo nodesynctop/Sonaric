@@ -10,6 +10,8 @@ Discord: https://discord.gg/MZ247hw47z
 
 Explorer: https://tracker.sonaric.xyz/
 
+Sonaric Incentives: https://docs.sonaric.xyz/community/incentive-program.html
+
 Guide dev: https://docs.sonaric.xyz/installation/vps.html
 
 ## Server preparation
