@@ -2,7 +2,7 @@
 Sonaric is an AI-powered network that revolutionizes the way blockchain nodes are operated and managed. Unlike traditional DePINs or compute marketplaces, Sonaric enables node operators to run blockchain nodes on their own hardware, driven by their own interests and incentives.
 
 By combining intelligent automation with a decentralized network, Sonaric makes it easy for anyone to become a node operator, while providing blockchain networks with a reliable and optimized pool of compute resources to support their growth. The network's AI-driven approach ensures optimal performance, security, and rewards for node operators, without the need for complex proof of computation mechanisms.
-
+<img src="https://raw.githubusercontent.com/nodesynctop/Sonaric/main/Sonaric.JPG"/>
 
 Twitter: https://x.com/Sonaricnetwork
 
