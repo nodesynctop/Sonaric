@@ -1,1 +1,45 @@
 # Sonaric
+
+Twitter: https://x.com/Sonaricnetwork
+
+Discord: https://discord.gg/MZ247hw47z
+
+Explorer: https://tracker.sonaric.xyz/
+
+## Server preparation
+```
+sudo apt update && apt upgrade -y
+sudo apt install wget curl make clang net-tools pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd -y
+```
+## Install Node
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/main/linux-install-sonaric.sh)"
+```
+## Check node info
+```
+sonaric node-info
+```
+## Check points
+```
+sonaric points
+```
+## Backup Wallet (all in one file) - Pub ID - Priv Key - Seed
+```
+sonaric identity-export -o wallet.identity
+```
+`Important:` Save `wallet.identity` file on your server and copied it to your own computer
+## Recovery  - You can then import it on a new node using
+```
+sonaric identity-import -i wallet.identity
+```
+## Rename node
+```
+sonaric node-rename
+```
+## Upgrade node
+```
+sudo apt update
+sudo apt upgrade sonaric
+sonaric node-info
+```
+
