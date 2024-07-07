@@ -33,6 +33,7 @@ sonaric points
 ```
 sonaric identity-export -o wallet.identity
 ```
+`You will be prompted to enter a password to encrypt the exported identity`
 `Important:` Save `wallet.identity` file on your server and copied it to your own computer
 ## Recovery  - You can then import it on a new node using
 ```
